@@ -1,9 +1,9 @@
-<form action="" method="">
-    <label for="">Usuário</label>
-    <input type="text">
-    <label for="">Senha</label>
-    <input type="password">
+<form action="logando.php" method="POST">
+    <label for="login">Usuário</label>
+    <input type="text" name="login" required>
+    <label for="senha">Senha</label>
+    <input type="password" name="senha" required>
 
-    <button>Entrar</button>
+    <button type="submit" name="entrar">Entrar</button>
     <a href="cadastro.php">Cadastre-se</a>
 </form>
